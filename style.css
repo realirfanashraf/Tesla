@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: black;
+}
+header{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 5px 20px;
+    position: fixed;
+    top: 15px;
+    z-index: 2;
+    width: 100%;
+}
+a.logo{
+    height: 12px;
+    width: 100px;
+    color: inherit;
+}
+header a{
+    color: inherit;
+}
+header nav a{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+header nav.centre{
+    text-align: center;
+}
+header nav.right{
+    text-align: right;
+}
+section{
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+section .content{
+    width: 100%;
+    height: 100vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+}
+section h1{
+    font-size: 3rem;
+}
+section a{
+    color: inherit;
+}
+section .buttons a{
+    background-color: #eee;
+    color: inherit;
+    padding: 10px 70px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+section .buttons{
+margin-top:300px;
+}
+section a.custom{
+    background: rgba(23, 26, 32, 0.8);
+    color: white;
+}
+section .demo{
+    text-decoration: underline;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px 10px;
+    
+}
+section nav{
+    text-align: center;
+}  
